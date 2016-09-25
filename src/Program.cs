@@ -25,7 +25,7 @@ namespace orez.oecho {
 		/// <param name="v">Escaped string.</param>
 		/// <returns>Unescaped string.</returns>
 		private static string Unescape(string v) {
-			return Regex.Unescape(v);
+			return Regex.Unescape(v.Replace("\\-", "-"));
 		}
 	}
 }
