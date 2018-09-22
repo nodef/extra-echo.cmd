@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Text.RegularExpressions;
 
-namespace orez.oecho {
+namespace App {
 	class Program {
 
 		// static method
@@ -12,7 +12,7 @@ namespace orez.oecho {
 		/// </summary>
 		/// <param name="args">Input arguments.</param>
 		static void Main(string[] args) {
-			oParams p = new oParams(args);
+			Params p = new Params(args);
 			string v = p.Value;
 			if (p.Expand) v = Unescape(v);
 			if (!p.NoNewline) v += '\n';

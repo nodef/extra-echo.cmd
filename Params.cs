@@ -1,5 +1,5 @@
-﻿namespace orez.oecho {
-	class oParams {
+﻿namespace App {
+	class Params {
 
 		// data
 		/// <summary>
@@ -21,7 +21,7 @@
 		/// Get parameters for input arguments.
 		/// </summary>
 		/// <param name="args">Input arguments.</param>
-		public oParams(string[] args) {
+		public Params(string[] args) {
 			for (int i = 0; i < args.Length; i++) {
 				string a = args[i];
 				if (a.StartsWith("--")) { SetOption(a.Substring(2, 1)); continue; }
