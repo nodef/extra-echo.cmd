@@ -1,5 +1,5 @@
 Write to stdout like Unix in Windows Console.
-> 1. Download [exe file](https://github.com/winp/extra-echo/releases/download/1.0.0/eecho.exe).
+> 1. Download [exe file](https://github.com/cmdf/extra-echo/releases/download/1.0.0/eecho.exe).
 > 2. Copy to `C:\Program_Files\Scripts`.
 > 3. Add `C:\Program_Files\Scripts` to `PATH` environment variable.
 
@@ -23,4 +23,4 @@ Write to stdout like Unix in Windows Console.
 ```
 
 
-[![Merferry](https://i.imgur.com/VrefufD.jpg)](https://merferry.github.io)
+[![cmdf](https://i.imgur.com/VrefufD.jpg)](https://cmdf.github.io)
