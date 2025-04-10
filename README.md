@@ -24,3 +24,4 @@ Write to stdout like Unix in Windows Console.
 
 
 [![cmdf](https://i.imgur.com/VrefufD.jpg)](https://cmdf.github.io)
+![](https://ga-beacon.deno.dev/G-RC63DPBH3P:SH3Eq-NoQ9mwgYeHWxu7cw/github.com/nodef/extra-echo.cmd)
